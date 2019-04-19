@@ -5,10 +5,12 @@
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 0.9;
-	margin: 0;
+	margin-left: 170px;
+    margin-top: 0px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 0.65em);
-	justify-self: center;
+	justify-self: left;
+    margin-left: 280px;
 }
 
 .word--crossword span {
@@ -24,5 +26,4 @@
 
 .word__cross span {
 	opacity: 0;
-
 }
