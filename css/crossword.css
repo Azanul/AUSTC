@@ -1,5 +1,5 @@
 .word--crossword {
-	font-size: 10vh;
+	font-size: 7vh;
 	font-family: 'Barrio', serif;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -19,7 +19,7 @@
 .word__cross {
 	pointer-events: none;
 	color: #3f2b9a;
-    font-size: 7vh;
+    font-size: 5vh;
 }
 
 .word__cross span {

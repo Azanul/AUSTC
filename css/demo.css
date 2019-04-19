@@ -3,7 +3,6 @@
 *::before {
 	box-sizing: border-box;
 }
-
 html {
 	background: #654dd4;
 }
@@ -105,9 +104,8 @@ main {
 	display: grid;
 	justify-content: center;
 	align-content: center;
-	height: 129vh;
 	overflow: hidden;
-	min-height: 650px;
+	min-height: 100px;
 	margin: 0 auto;
 }
 
