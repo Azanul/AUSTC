@@ -116,18 +116,36 @@ main {
 }
 
 .pic{
-    margin-left: 390px;
-    margin-top: 10px;
+    position: relative;
+    margin-left: 740px;
+    margin-top: 0px;
     position: fixed;
-    float: right;
-    width:100%;
-    height: 550px;
-    width: 740px;
+    height: 100%;
+    width: 796px;
     overflow: hidden;
+    text-align: center;
 }
 
 .pic img{
-    width: 50%;
+    margin-left: -125px;
+    width: 980px;
+    height: auto;
+}
+
+@font-face {
+    src: url('font/originality.ttf');
+    font-family: originality;
+}
+
+.quote{
+    font-family: originality;
+    font-size: 5vh;
+    line-height: 35px;
+    font-weight: 200;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -160%);
 }
 .content--layout {
 	grid-template-columns: 100%;
