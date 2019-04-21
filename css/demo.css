@@ -116,20 +116,21 @@ main {
 }
 
 .pic{
-    position: relative;
-    margin-left: 740px;
+    position: absolute;
+    margin-left: 757px;
     margin-top: 0px;
-    position: fixed;
-    height: 100%;
-    width: 796px;
+    width: 762px;
+    height: 754px;
+    border-bottom-left-radius: 15px;
+    background-color: #654dd4;
     overflow: hidden;
     text-align: center;
 }
 
 .pic img{
-    margin-left: -125px;
+    margin-left: -140px;
     width: 980px;
-    height: auto;
+    height: 760px;
 }
 
 @font-face {
@@ -147,10 +148,28 @@ main {
     top: 30%;
     transform: translate(-50%, -160%);
 }
+
 .content--layout {
 	grid-template-columns: 100%;
 }
 
+.intro{
+    position: absolute;
+    margin-top: 69px;
+    background-color: #654dd4;
+    height: 770px;
+    width: 1519px
+}
+
+.intro p{
+    color: #32266a;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 370px;
+    width: 1400px;
+}
 @media screen and (max-width: 50em) {
 	html, body {
 		overflow-x: hidden;
