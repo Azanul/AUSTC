@@ -18,11 +18,12 @@ html {
 
 body {
     margin: 0 0;
+    padding: 0px;
 	font-family: 'Nunito', monospace;
 	color: var(--color-text);
 	background-color: var(--color-background);
 	min-height: 100vh;
-    width: 770px;
+    width: 100%;
 }
 
 .js body {
@@ -67,25 +68,25 @@ main {
 
 .logo img{
     float: left;
-    margin-left: 30.5%;
-    margin-top: 10%;
-    width: 35%;
+    margin-left: 14.3%;
+    margin-top: 5%;
+    width: 20%;
 }
 
 .pic{
     position: absolute;
-    margin-left: 97.3%;
+    margin-left: 43%;
     margin-top: 0px;
-    width: 100%;
-    height: 235%;
-    border-bottom-left-radius: 15px;
+    width: 56.9%;
+    height: 214.3%;
+    border-bottom-left-radius: 55px;
     background-color: #654dd4;
     overflow: hidden;
     text-align: center;
 }
 
 .pic img{
-    margin-left: -140px;
+    margin-left: -78px;
     width: 980px;
     height: 760px;
 }
@@ -112,17 +113,17 @@ main {
 
 .intro{
     position: absolute;
-    margin-top: 69px;
+    margin-top: 3%;
     background-color: #654dd4;
-    height: 90%;
-    width: 198%;
+    height: 100%;
+    width: 100%;
 }
 
 .intro p{
     color: #32266a;
     background-color: white;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 15px;
     height: 50%;
     width: 90%;
