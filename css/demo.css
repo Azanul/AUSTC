@@ -7,8 +7,6 @@ html {
 	background: #654dd4;
 }
 
-/* Color scheme */
-
 .page-crossword {
 	--color-text: #fff;
 	--color-link: #ffed0b;
@@ -86,9 +84,9 @@ main {
 }
 
 .pic img{
-    margin-left: -89px;
-    width: 980px;
-    height: 760px;
+    margin-left: -10.4%;
+    width: 113.5%;
+    height: 100%;
 }
 
 @font-face {
