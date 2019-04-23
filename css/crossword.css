@@ -5,10 +5,9 @@
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 0.9;
-    margin-top: 0px;
+    margin-top: 0%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 0.65em);
-	justify-self: left;
     margin-left: 18.5%;
 }
 

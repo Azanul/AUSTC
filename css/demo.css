@@ -75,18 +75,18 @@ main {
 
 .pic{
     position: absolute;
-    margin-left: 43%;
+    margin-left: 43.1%;
     margin-top: 0px;
     width: 56.9%;
     height: 214.3%;
-    border-bottom-left-radius: 55px;
+    border-bottom-left-radius: 25px;
     background-color: #654dd4;
     overflow: hidden;
     text-align: center;
 }
 
 .pic img{
-    margin-left: -78px;
+    margin-left: -89px;
     width: 980px;
     height: 760px;
 }
@@ -102,8 +102,8 @@ main {
     line-height: 35px;
     font-weight: 200;
     position: absolute;
-    left: 50%;
-    top: 30%;
+    margin-left: 50%;
+    margin-top: -60%;
     transform: translate(-50%, -50%);
 }
 
