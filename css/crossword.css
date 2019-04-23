@@ -1,14 +1,14 @@
 .word--crossword {
-	font-size: 7vh;
+	font-size: 3.45vw;
 	font-family: 'Barrio', serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
-	line-height: 0.9;
-    margin-top: 0%;
+	line-height: 5.1vh;
+    margin-top: 1vh;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 0.65em);
-    margin-left: 18.5%;
+    margin-left: 18.5vw;
 }
 
 .word--crossword span {
@@ -19,7 +19,7 @@
 .word__cross {
 	pointer-events: none;
 	color: #3f2b9a;
-    font-size: 5vh;
+    font-size: 2.5vw;
 }
 
 .word__cross span {

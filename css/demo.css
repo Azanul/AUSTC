@@ -68,17 +68,17 @@ main {
 
 .logo img{
     float: left;
-    margin-left: 14.3%;
-    margin-top: 5%;
-    width: 20%;
+    margin-left: 14.3vw;
+    margin-top: 5vh;
+    width: 20vw;
 }
 
 .pic{
     position: absolute;
-    margin-left: 43.1%;
+    margin-left: 43.1vw;
     margin-top: 0px;
-    width: 56.9%;
-    height: 214.3%;
+    width: 55.79vw;
+    height: 100vh;
     border-bottom-left-radius: 25px;
     background-color: #654dd4;
     overflow: hidden;
@@ -86,9 +86,9 @@ main {
 }
 
 .pic img{
-    margin-left: -89px;
-    width: 980px;
-    height: 760px;
+    margin-left: -4vw;
+    width: 60vw;
+    height: 100vh;
 }
 
 @font-face {
@@ -98,12 +98,12 @@ main {
 
 .quote{
     font-family: originality;
-    font-size: 5vh;
-    line-height: 35px;
+    font-size: 2.5vw;
+    line-height: 4.5vh;
     font-weight: 200;
     position: absolute;
-    margin-left: 50%;
-    margin-top: -60%;
+    margin-left: 29vw;
+    margin-top: -70vh;
     transform: translate(-50%, -50%);
 }
 
