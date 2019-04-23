@@ -67,16 +67,16 @@ main {
 
 .logo img{
     float: left;
-    margin-left: 94%;
-    margin-top: 40%;
-    width: 256px;
+    margin-left: 30.5%;
+    margin-top: 10%;
+    width: 35%;
 }
 
 .pic{
     position: absolute;
-    margin-left: 295.5%;
+    margin-left: 97.3%;
     margin-top: 0px;
-    width: 762px;
+    width: 100%;
     height: 754px;
     border-bottom-left-radius: 15px;
     background-color: #654dd4;
