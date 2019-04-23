@@ -28,7 +28,7 @@ body {
 
 .js body {
 	opacity: 0;
-	transition: opacity 0.3s;
+	transition: opacity 1s;
 }
 
 .js body.render {
@@ -104,7 +104,7 @@ main {
     position: absolute;
     left: 50%;
     top: 30%;
-    transform: translate(-50%, -160%);
+    transform: translate(-50%, -50%);
 }
 
 .content--layout {

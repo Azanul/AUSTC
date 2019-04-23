@@ -5,12 +5,11 @@
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 0.9;
-	margin-left: 170px;
     margin-top: 0px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 0.65em);
 	justify-self: left;
-    margin-left: 280px;
+    margin-left: 18.5%;
 }
 
 .word--crossword span {
