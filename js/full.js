@@ -1,5 +1,5 @@
 {
-	class Letter {
+class Letter {
 		constructor(letter, row, col) {
 			this.DOM = {};
 			this.DOM.letter = letter;
@@ -54,7 +54,7 @@
 					},
 					opacity: {
 						value: 1,
-						duration: 200,
+						duration: 100,
 						easing: 'linear'
 					}
 				});

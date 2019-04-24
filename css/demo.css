@@ -1,91 +1,82 @@
 *,
 *::after,
 *::before {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 html {
-	background: #654dd4;
+    background: #654dd4;
 }
 
 /* Color scheme */
 
 .page-crossword {
-	--color-text: #fff;
-	--color-link: #ffed0b;
+    --color-text: #fff;
+    --color-link: #ffed0b;
     --color-background: #654dd4;
-	--color-link-hover: #fff;
+    --color-link-hover: #fff;
 }
 
 body {
     margin: 0 0;
     padding: 0px;
-	font-family: 'Nunito', monospace;
-	color: var(--color-text);
-	background-color: var(--color-background);
-	min-height: 100vh;
+    font-family: 'Nunito', monospace;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    min-height: 100vh;
     width: 100%;
 }
 
 .js body {
-	opacity: 0;
-	transition: opacity 1s;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .js body.render {
-	opacity: 1;
-}
-
-a {
-	text-decoration: none;
-	color: var(--color-link);
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	color: var(--color-link-hover);
+    opacity: 1;
 }
 
 .hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    pointer-events: none;
 }
 
 main {
-	position: relative;
+    position: relative;
     width: 100%;
 }
 
 .content {
-	position: relative;
-	display: table;
-	min-height: 100px;
-	margin: 0 0;
+    position: relative;
+    display: grid;
+    min-height: 100px;
+    margin: -3px 0;
 }
 
-.logo img{
+.logo img {
     float: left;
     margin-left: 14.3vw;
     margin-top: 5vh;
     width: 20vw;
 }
 
-.pic{
+.pic {
     position: absolute;
     margin-left: 43.1vw;
-    margin-top: 0px;
+    margin-top: 1px;
     width: 55.79vw;
-    height: 100vh;
+    height: 94vh;
     border-bottom-left-radius: 25px;
     background-color: #654dd4;
     overflow: hidden;
     text-align: center;
 }
 
-.pic img{
+.pic img {
+    margin-top: -6vh;
     margin-left: -4vw;
     width: 60vw;
     height: 100vh;
@@ -96,7 +87,7 @@ main {
     font-family: originality;
 }
 
-.quote{
+.quote {
     font-family: originality;
     font-size: 2.5vw;
     line-height: 4.5vh;
@@ -108,10 +99,10 @@ main {
 }
 
 .content--layout {
-	grid-template-columns: 100%;
+    grid-template-columns: 100%;
 }
 
-.intro{
+.intro {
     position: absolute;
     margin-top: 3%;
     background-color: #654dd4;
@@ -119,7 +110,7 @@ main {
     width: 100%;
 }
 
-.intro p{
+.intro p {
     color: #32266a;
     background-color: white;
     margin-left: 5%;
@@ -128,17 +119,22 @@ main {
     height: 50%;
     width: 90%;
 }
+
 @media screen and (max-width: 50em) {
-	html, body {
-		overflow-x: hidden;
-		width: 100vw;
-		height: 100%;
-	}
-	.content {
-		height: auto;
-		min-height: 0;
-	}
-	.content--layout {
-		overflow: visible;
-	}
+
+    html,
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .content {
+        height: auto;
+        min-height: 0;
+    }
+
+    .content--layout {
+        overflow: visible;
+    }
 }
