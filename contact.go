@@ -40,5 +40,5 @@ f.Close()
 }
 
 func init() {
-http.HandleFunc("/contact.go", save)
+http.HandleFunc("/contact", save)
 }
