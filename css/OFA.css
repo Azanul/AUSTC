@@ -106,3 +106,11 @@ header {
 a {
     color: #336699;
 }
+
+.bottom_nav{
+    background-color: #1c1c1c;
+    display: block;
+    width: 100%;
+    height: 160px;
+    opacity: 100%;
+}

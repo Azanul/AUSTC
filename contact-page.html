@@ -4,9 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Blueprint: Responsive Multi-Column Form</title>
-		<meta name="description" content="Blueprint: Blueprint: Responsive Multi-Column Form" />
-		<meta name="keywords" content="responsive form, inputs, html5, responsive, multi-column, fluid, media query, template" />
+		<title>Contact Us</title>
+		<meta name="description" content="Contact Us" />
 		<link rel="stylesheet" type="text/css" href="css/contact-form2.css" />
 		<link rel="stylesheet" type="text/css" href="css/contact-form.css" />
 		<link rel="stylesheet" type="text/css" href="css/OFA.css"/>
@@ -34,14 +33,14 @@
 	<body>
 		<div class="container">
 			<div class="main">
-				<form class="cbp-mc-form">
+				<form action="/AUSTC_website/contact" class="cbp-mc-form" method="post">
 					<div class="cbp-mc-column">
 						<label for="first_name">Name</label>
 	  					<input type="text" id="first_name" name="first_name" placeholder="John Doe">
 	  					<label for="email">Email Address</label>
-	  					<input type="text" id="email" name="email" placeholder="jon@doe.com">
-	  					<label for="department">Department</label>
-	  					<select id="country" name="country">
+	  					<input type="text" id="email" name="email" placeholder="johnDoe@gmail.com">
+	  					<label>Department</label>
+	  					<select id="dept" name="dept">
 	  						<option>Choose a department</option>
 	  						<option>CSE</option>
 	  						<option>EEN</option>
@@ -50,9 +49,9 @@
 	  					<label>Occupation</label>
 	  					<select id="occupation" name="occupation">
 	  						<option>Choose an occupation</option>
-	  						<option>Web Designer</option>
-	  						<option>Web Developer</option>
-	  						<option>Hybrid</option>
+	  						<option>Student</option>
+	  						<option>Professor</option>
+	  						<option>Staff</option>
 	  					</select>
 	  					<label for="msg">Message</label>
 	  					<textarea id="msg" name="msg"></textarea>
@@ -63,4 +62,5 @@
 		</div>
 	</body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/OFA.js"></script>
