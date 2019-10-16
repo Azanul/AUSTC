@@ -10,6 +10,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 label{
   color: white;
@@ -37,4 +39,31 @@ label{
 }
 .text{
   color: white;
+}
+@media screen and (max-width:1000px) {
+.submit{
+  width: 20%;
+  height: 80px;
+  font-size: 40px;
+}
+
+.text{
+  font-size: 40px;
+}
+label{
+  font-size: 55px;
+  margin-right: 55%;
+}
+.input-details{
+  width: 80%;
+  font-size: 40px;
+  height: 100px;
+}
+
+#option{
+  width: 65%;
+  height: 80px;
+  font-size: 40px;
+}
+
 }
