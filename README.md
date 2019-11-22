@@ -1,8 +1,8 @@
 # Aliah University Science and Technology Club.
 
-## Instruction
-Aliah University is a autonomous University under the department of minority affairs and madarshah education of government of West Bengal India.
-Phd scholar and engineering department decided to established a Science and Technology club for collaboration and event scheduling. Therefore few student from CSE background decided to work on its website, where the details of upcoming event would be available.
+## Instructions
+Aliah University is an autonomous university under the department of minority affairs and madarshah education of government of West Bengal India.
+A few like minded students and faculty members decided to establishe a science and technology club for collaboration and event organization. This repositry is the under construction website of AUSTC.
 
 #University
-For more details visit university website here [Aliah University](https://aliah.ac.in)
+For more details visit university website here [Aliah University](https://aliah.ac.in) or look it up in [Wkipedia](https://en.wikipedia.org/wiki/Aliah_University).
