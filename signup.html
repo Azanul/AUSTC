@@ -38,5 +38,19 @@
 	<body>
     <iframe class="Rform" src="https://docs.google.com/forms/d/e/1FAIpQLSfLXMZuukrZveQOrUBL40jiFzlDB1zHcBecU2viI6e1yHcRYg/viewform?embedded=true" width="640" height="1646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </body>
-  <script src="js/OFA.js"></script>
+  <script>
+        $(document).ready(function() {
+            $(window).on("load", function() {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloader = $('.wrapper');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
+</body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/OFA.js"></script>
